@@ -1,0 +1,47 @@
+.header{
+    height: 50px;
+    width: 100%;
+    padding-top: 15px;
+    position: fixed;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.haderLogo{
+    width: 15rem;
+    min-width: 100px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.social{
+    width: 100%;
+    min-width: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+}
+.social-Icon{
+    width: 1.8rem;
+    padding-left: 20px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 580px) {
+    .social{
+        padding-right: 30px;
+    }
+    .haderLogo{
+        padding-left: 15px;
+        min-width: 100px;
+    }
+    .social-Icon{
+        display: block;
+        width: 1rem;
+        min-width: .7rem;
+    }
+    .header{
+        height: 20px;
+    }
+}

@@ -1,0 +1,85 @@
+.A-About{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.A-content{
+    position: relative;
+    width: 90%;
+    padding: 5.5rem 0 0 5.5rem;
+    z-index: 3;
+}
+.A-head{
+    font-size: 3rem;
+    font-weight: 450;
+}
+.A-ULine{
+    width: 8.5rem;
+    height: .4rem;
+    border-radius: 8px;
+}
+.A-disc{
+    font-size: 2rem;
+    font-weight: 300;
+    width: 70%;
+    padding-top: 1.5rem;
+    line-height: 150%;
+}
+.dots-Obj{
+    position: absolute;
+    top: 65vh;
+    left: 80vw;
+}
+.dot-rows{
+    display: flex;
+}
+.dot{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin: 10px;
+    z-index: 1;
+}
+@media only screen and (max-width: 900px) {
+    .A-content{
+        padding: 5.5rem 0 0 5.5rem;
+    }
+    .A-head{
+        font-size: 2.5rem;
+        font-weight: 450;
+    }
+    .A-ULine{
+        width: 7.5rem;
+        height: .4rem;
+        border-radius: 8px;
+    }
+    .A-disc{
+        font-size: 1.5rem;
+        font-weight: 300;
+        width: 70%;
+        padding-top: 1.5rem;
+        line-height: 150%;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .A-content{
+        padding: 4rem 0 0 2rem;
+    }
+    .A-head{
+        font-size: 2rem;
+        font-weight: 450;
+    }
+    .A-ULine{
+        width: 7.5rem;
+        height: .4rem;
+        border-radius: 8px;
+    }
+    .A-disc{
+        font-size: 1.3rem;
+        font-weight: 300;
+        width: 70%;
+        padding-top: 1.5rem;
+        line-height: 150%;
+    }
+} 

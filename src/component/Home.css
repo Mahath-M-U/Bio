@@ -1,0 +1,135 @@
+.H-Home{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.H-content{
+    position: relative;
+    width: 80%;
+    padding: 9rem 0 0 9rem;
+    z-index: 3;
+}
+.H-head-hi{
+    font-weight: 900;
+    font-size: 6rem;
+}
+.H-sub-head{
+    font-size: 3rem;
+    font-weight: 450;
+}
+.H-ULine{
+    width: 23rem;
+    height: .4rem;
+    border-radius: 8px;
+}
+.H-disc{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 180%;
+    width: 80%;
+}
+.H-buttons{
+    padding-top: 2rem;
+    display: flex;
+    width: 28rem;
+    justify-content: space-between;
+}
+.BG{
+    z-index: 1;
+}
+.Bg-Top{
+    position: absolute;
+    width: 8rem;
+    top: 5rem;
+    right: 1.5rem;
+}
+.Bg-Cen{
+    position: absolute;
+    width: 30rem;
+    top: 20rem;
+    right: 3rem;
+}
+.Bg-Bt{
+    position: absolute;
+    width: 2rem;
+    top: 30rem;
+    left: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .H-content{
+        padding: 4rem 0 0 4rem ;
+    }
+    .H-head-hi{
+        font-size: 6rem;
+    }
+    .H-sub-head{
+        font-size: 2.5rem;
+    }
+    .H-ULine{
+        width: 19.5rem;
+    }
+    .H-disc{
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 150%;
+        width: 70%;
+
+    }
+
+    .H-buttons{
+        padding-top: 2rem;
+        width: 26rem;
+    }
+    .Bg-Top{
+        width: 4rem;
+        top: 4rem;
+        right: 2rem;
+    }
+    .Bg-Cen{
+        width: 15rem;
+        top: 17rem;
+        right: 1rem;
+    }
+    .Bg-Bt{
+        display: none;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .H-content{
+        padding: 1.5rem 0 0 1.5rem;
+    }
+    .H-head-hi{
+        font-size: 5rem;
+    }
+    .H-sub-head{
+        font-size: 1.2rem;
+    }
+    .H-ULine{
+        width: 9.4rem;
+    }
+    .H-disc{
+        font-size: 1.1rem;
+        width: 70%;
+        line-height: 150%;
+    }
+    .H-buttons{
+        padding-top: 2rem;
+        width: 15rem;
+    }
+    .Bg-Top{
+        width: 4rem;
+        top: 3rem;
+        right: 2rem;
+    }
+    .Bg-Cen{
+        width: 15rem;
+        top: 14rem;
+        right: 1rem;
+    }
+    .Bg-Bt{
+        display: none;
+    }
+} 
