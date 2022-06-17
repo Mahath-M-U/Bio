@@ -1,11 +1,11 @@
 import './Home.css'
 import React from 'react'
-import Button from './Button'
-import { ReactComponent as InstaIcon } from '../Assets/instagram_Icon.svg'
-import { ReactComponent as MailIcon } from '../Assets/mail_Icon.svg'
-import { ReactComponent as TopBgImg } from '../Assets/bgImg2.svg'
-import { ReactComponent as CenBgImg } from '../Assets/bgImg1.svg'
-import { ReactComponent as BtBgImg } from '../Assets/dotLong.svg'
+import Button from '../../component/button/Button'
+import { ReactComponent as InstaIcon } from '../../Assets/icon/instagram_Icon.svg'
+import { ReactComponent as MailIcon } from '../../Assets/icon/mail_Icon.svg'
+import { ReactComponent as TopBgImg } from '../../Assets/svg/four_row_rectangle.svg'
+import { ReactComponent as CenBgImg } from '../../Assets/svg/three_rectangle.svg'
+import { ReactComponent as BtBgImg } from '../../Assets/svg/two_row dot.svg'
 
 const Home = ({BgColor,FontColor,objColor,LiteColor}) => {
   return (

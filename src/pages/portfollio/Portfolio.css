@@ -1,0 +1,15 @@
+.portfolio{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    left: 2rem;
+    display: flex;
+    justify-content: space-between;
+}

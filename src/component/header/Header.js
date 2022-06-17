@@ -1,9 +1,9 @@
 import './Header.css';
 import React from 'react'
-import { ReactComponent as HeaderLogo } from '../Assets/headerLogo.svg';
-import { ReactComponent as InstaIcon } from '../Assets/instagram_Icon.svg';
-import { ReactComponent as LinkedinIcon } from '../Assets/linkedin_Icon.svg';
-import { ReactComponent as GithubIcon } from '../Assets/gitHub_Icon.svg';
+import { ReactComponent as HeaderLogo } from '../../Assets/logo/headerLogo.svg';
+import { ReactComponent as InstaIcon } from '../../Assets/icon/instagram_Icon.svg';
+import { ReactComponent as LinkedinIcon } from '../../Assets/icon/linkedin_Icon.svg';
+import { ReactComponent as GithubIcon } from '../../Assets/icon/gitHub_Icon.svg';
 import { useNavigate } from 'react-router-dom';
 
 const Header = ({LogoColor}) => {

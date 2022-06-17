@@ -1,0 +1,49 @@
+
+.card{
+    width: 13rem;
+    height: 18rem;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px #BDBDBD;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: .3s;
+}
+.card-info{
+    font-size: 1rem;
+    position: relative;
+    top: -7px;
+}
+.pic-box{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 20px ;
+  
+}
+.pic{
+    width: 100%;
+    background-size:cover;
+    border-radius: 20px;
+}
+.git-icon{
+    width: 2rem;
+    cursor: pointer;
+}
+.demo{
+    cursor: pointer;
+    border-radius: 6PX;
+    padding: 3PX;
+}
+.card-btn{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: .3rem;
+    width: 	1.7rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}

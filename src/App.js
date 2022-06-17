@@ -1,13 +1,21 @@
 import './App.css';
-import Home from './component/Home'
-import About from './component/About'
-import Footer from './component/Footer'
-import Header from './component/Header'
-import colors from './Assets/Colours.json'
+import Home from './pages/home/Home'
+import About from './pages/about/About'
+import Portfolio from './pages/portfollio/Portfolio'
+import React  from 'react';
+import Footer from './component/footer/Footer'
+import Header from './component/header/Header'
 import {Routes, Route } from "react-router-dom";
 
-
 function App() {
+  const colors = {
+                    "DarkBlue": "#002840",
+                    "Blue" : "#AADFEE",
+                    "LightBlue" : "#D4EFF7",
+                    "greywhite" : "#F6F3EE",
+                    "white" : "#ffffff",
+                    "grey" : "#999999"
+                }
   return (
     <div className="app">
     <Header className="header" LogoColor = {colors.DarkBlue}/>
@@ -32,13 +40,11 @@ function App() {
                 FontColor = {colors.DarkBlue}
                 objColor ={colors.Blue}
                 LiteColor = {colors.LightBlue} />}/>
-          <Route path="/works" element={<h1 style={{
-            width:'100vw',
-            height:'100vh',
-            display:'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-            }}>Coming Soon</h1>} />
+          <Route path="/portfolio" element={
+            <Portfolio
+              color = {colors}
+            />
+            } />
           <Route path="/services" element={<h1 style={{
             width:'100vw',
             height:'100vh',
