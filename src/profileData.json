@@ -1,0 +1,78 @@
+{
+    "portfolio":[
+            {
+                "id":1,
+                "bgImg":"8051LCDIMG.PNG",
+                "headTxt":"smart shelter",
+                "iconLink":"https://www.codegrepper.com/",
+                "demoLink":"https://www.codegrepper.com/",
+                "discTxt":"When a component is removed, there's no longer a chance to update its props."
+            },
+            {
+                "id":2,
+                "bgImg":"RTRIMG.png",
+                "headTxt":"Web3",
+                "iconLink":"https://www.codegrepper.com/",
+                "demoLink":"https://www.codegrepper.com/",
+                "discTxt":"When a component is removed, there's no longer a chance to update its props."
+            },
+            {
+                "id":3,
+                "bgImg":"smartShelterIMG.png",
+                "headTxt":"IoT",
+                "iconLink":"https://www.codegrepper.com/",
+                "demoLink":"https://www.codegrepper.com/",
+                "discTxt":"When a component is removed, there's no longer a chance to update its props."
+            },
+            {
+                "id":4,
+                "bgImg":"WiFiCarIMG.PNG",
+                "headTxt":"Robot",
+                "iconLink":"https://www.codegrepper.com/",
+                "demoLink":"https://www.codegrepper.com/",
+                "discTxt":"When a component is removed, there's no longer a chance to update its props."
+            },
+            {
+                "id":5,
+                "bgImg":"RTRIMG.png",
+                "headTxt":"Demo",
+                "iconLink":"https://www.codegrepper.com/",
+                "demoLink":"https://www.codegrepper.com/",
+                "discTxt":"When a component is removed, there's no longer a chance to update its props."
+            }
+    ],
+    "service":[
+        {
+            "id":1,
+            "bgImg":"webdevolaperIMG.svg",
+            "headTxt":"smart shelter",
+            "iconLink":"https://www.codegrepper.com/",
+            "demoLink":"https://www.codegrepper.com/",
+            "discTxt":"When a component is removed, there's no longer a chance to update its props."
+        },
+        {
+            "id":2,
+            "bgImg":"embeddedSIMG.svg",
+            "headTxt":"Web3",
+            "iconLink":"https://www.codegrepper.com/",
+            "demoLink":"https://www.codegrepper.com/",
+            "discTxt":"When a component is removed, there's no longer a chance to update its props."
+        },
+        {
+            "id":3,
+            "bgImg":"DesingIMG.svg",
+            "headTxt":"Web3",
+            "iconLink":"https://www.codegrepper.com/",
+            "demoLink":"https://www.codegrepper.com/",
+            "discTxt":"When a component is removed, there's no longer a chance to update its props."
+        },
+        {
+            "id":5,
+            "bgImg":"embeddedSIMG.svg",
+            "headTxt":"Web3",
+            "iconLink":"https://www.codegrepper.com/",
+            "demoLink":"https://www.codegrepper.com/",
+            "discTxt":"When a component is removed, there's no longer a chance to update its props."
+        }
+    ]
+}
