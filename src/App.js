@@ -2,6 +2,7 @@ import './App.css';
 import Home from './pages/home/Home'
 import About from './pages/about/About'
 import Portfolio from './pages/portfollio/Portfolio'
+import Service from './pages/services/Service'
 import React  from 'react';
 import Footer from './component/footer/Footer'
 import Header from './component/header/Header'
@@ -45,13 +46,10 @@ function App() {
               color = {colors}
             />
             } />
-          <Route path="/services" element={<h1 style={{
-            width:'100vw',
-            height:'100vh',
-            display:'flex',
-            justifyContent: 'center',
-            alignItems: 'center'
-            }}>Coming Soon</h1>} />
+          <Route path="/services" element={
+            <Service
+                color = {colors}
+              />} />
         </Routes>
        <Footer className="footer"
               IconColor ={colors.DarkBlue} 

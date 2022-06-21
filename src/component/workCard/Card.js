@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.css'
 import {motion,AnimatePresence } from 'framer-motion/dist/es/index'
 
-export const Card = ({pic,color,Icon,iconLink,demoLink,headTxt,discTxt})=>{
+export const Card = ({bgImg,color,Icon,iconLink,demoLink,headTxt,discTxt,hoverFlag})=>{
 
     const cardHover = {
         rest: { scale: 1,backgroundColor:color.greywhite,ease: "easeOut", duration: 0.2, type: "tween" },
@@ -33,9 +33,9 @@ export const Card = ({pic,color,Icon,iconLink,demoLink,headTxt,discTxt})=>{
                 <motion.div className='pic-box' >
                     <motion.img 
                         className="pic" 
-                        src={pic} 
+                        src={bgImg} 
                         alt="smartshelter" 
-                        variants={backgroundHover}/>
+                        variants={hoverFlag&&backgroundHover}/>
                 </motion.div>
                 <motion.div className='card-btn' 
                     whileTap={{ scale: 0.9 }}
