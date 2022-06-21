@@ -2,7 +2,7 @@ import './Portfolio.css'
 import React from 'react'
 
 import { ReactComponent as GithubIcon } from '../../Assets/icon/gitHub_Icon.svg';
-import profileData from "../../Assets/json/profileData.json"
+import profileData from "../../profileData.json"
 import {Card} from '../../component/workCard/Card'
 
 
