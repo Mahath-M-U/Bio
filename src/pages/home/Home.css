@@ -9,6 +9,7 @@
     width: 80%;
     padding: 9rem 0 0 9rem;
     z-index: 3;
+    scale: .85;
 }
 .H-head-hi{
     font-weight: 900;

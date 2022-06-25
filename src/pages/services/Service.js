@@ -2,12 +2,13 @@ import './Service.css'
 import React from 'react'
 
 import { ReactComponent as GithubIcon } from '../../Assets/icon/gitHub_Icon.svg';
-import profileData from "../../profileData.json"
+import profileData from "../../profileData"
 import {Card} from '../../component/workCard/Card'
 
 
 
 const Service =({color})=>{
+    
     return(
         <div className='service' style={{background:color.greywhite}} >
             <div className='cards'>
