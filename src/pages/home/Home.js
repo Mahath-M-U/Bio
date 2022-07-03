@@ -4,16 +4,16 @@ import Button from '../../component/button/Button'
 import { ReactComponent as InstaIcon } from '../../Assets/icon/instagram_Icon.svg'
 import { ReactComponent as MailIcon } from '../../Assets/icon/mail_Icon.svg'
 import { ReactComponent as TopBgImg } from '../../Assets/svg/four_row_rectangle.svg'
-import { ReactComponent as CenBgImg } from '../../Assets/svg/three_rectangle.svg'
+import { ReactComponent as BgImg } from '../../Assets/svg/three_rectangle.svg'
 import { ReactComponent as BtBgImg } from '../../Assets/svg/two_row dot.svg'
 
 const Home = ({BgColor,FontColor,objColor,LiteColor}) => {
   return (
       <div className="H-Home" style={{background:BgColor}}>
           <div className="BG">
-            <TopBgImg className="Bg-Top"/>
-            <CenBgImg className="Bg-Cen"/>
-            <BtBgImg className="Bg-Bt"/>
+            <TopBgImg className="Bg-Top" style={{fill:FontColor}}/>
+            <BgImg className="Bg-Cen" style={{fill:LiteColor}}/>
+            <BtBgImg className="Bg-Bt" style={{fill:FontColor}}/>
           </div>
         <div className="H-content">
           <div className="H-head" style={{color:FontColor}}>

@@ -1,44 +1,51 @@
-{
+{   "about":{
+                "title":"Mahath M U",
+                "discription":"I am a web developer and technology enthusiast from Kerala, a small state in India.",
+                "resume":"hitme.html",
+                "contact":"mailto:Mahathmundakkal@gmail.com",
+                "tech":"Software Developer"
+            },
     "portfolio":[
             {
                 "id":1,
                 "bgImg":"8051LCDIMG.PNG",
+                "bgColor":"#D4EFF7",
                 "headTxt":"smart shelter",
                 "iconLink":"https://www.codegrepper.com/",
                 "demoLink":"https://www.codegrepper.com/",
-                "discTxt":"When a component is removed, there's no longer a chance to update its props."
+                "discTxt":"When a component is removed, there's no longer a chance to update its props.1",
+                "tech":"react"
+
             },
             {
                 "id":2,
+                "bgColor":"#AADFEE",
                 "bgImg":"RTRIMG.png",
                 "headTxt":"Web3",
                 "iconLink":"https://www.codegrepper.com/",
                 "demoLink":"https://www.codegrepper.com/",
-                "discTxt":"When a component is removed, there's no longer a chance to update its props."
+                "discTxt":"When a component is removed, there's no longer a chance to update its props1.",
+                "tech":"python"
             },
             {
                 "id":3,
+                "bgColor":"#F6F3EE",
                 "bgImg":"smartShelterIMG.png",
                 "headTxt":"IoT",
                 "iconLink":"https://www.codegrepper.com/",
                 "demoLink":"https://www.codegrepper.com/",
-                "discTxt":"When a component is removed, there's no longer a chance to update its props."
+                "discTxt":"When a component is removed, there's no longer a chance to update its props2.",
+                "tech":"c++"
             },
             {
                 "id":4,
+                "bgColor":"#999999",
                 "bgImg":"WiFiCarIMG.PNG",
                 "headTxt":"Robot",
                 "iconLink":"https://www.codegrepper.com/",
                 "demoLink":"https://www.codegrepper.com/",
-                "discTxt":"When a component is removed, there's no longer a chance to update its props."
-            },
-            {
-                "id":5,
-                "bgImg":"RTRIMG.png",
-                "headTxt":"Demo",
-                "iconLink":"https://www.codegrepper.com/",
-                "demoLink":"https://www.codegrepper.com/",
-                "discTxt":"When a component is removed, there's no longer a chance to update its props."
+                "discTxt":"When a component is removed, there's no longer a chance to update its props.3",
+                "tech":"c++"
             }
     ],
     "service":[

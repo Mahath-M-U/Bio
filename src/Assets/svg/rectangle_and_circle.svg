@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1044.04 539.45">
 <defs><style>.rect-1{opacity:0.5;}.rect-2{fill:#aadfee;}.rect-2,.rect-3{opacity:0.53;}</style>
 </defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1">
-<g class="rect-1">
-<rect class="rect-2" y="5.45" width="517" height="381.6" rx="39.84"/>
-<rect class="rect-2" x="343" y="203.45" width="336" height="336" rx="168"/>
-<g class="rect-3">
-<rect class="rect-2" x="634.37" y="354.48" width="409.63" height="128.01" rx="20.54"/></g>
-<rect class="rect-2" x="599.37" y="155.55" width="227.63" height="128.01" rx="15.31"/>
-<rect class="rect-2" x="691.82" y="0.12" width="340.77" height="218.34" rx="24.46"/>
+<g className="rect-1">
+<rect className="rect-2" y="5.45" width="517" height="381.6" rx="39.84"/>
+<rect className="rect-2" x="343" y="203.45" width="336" height="336" rx="168"/>
+<g className="rect-3">
+<rect className="rect-2" x="634.37" y="354.48" width="409.63" height="128.01" rx="20.54"/></g>
+<rect className="rect-2" x="599.37" y="155.55" width="227.63" height="128.01" rx="15.31"/>
+<rect className="rect-2" x="691.82" y="0.12" width="340.77" height="218.34" rx="24.46"/>
 </g></g></g></svg>
