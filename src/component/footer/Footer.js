@@ -15,15 +15,14 @@ const Footer =({IconColor,TabColor}) =>{
             <div className="NavBar">
                 <ul className="icons">
                     <li className="icon" onClick={()=>{navigate("/", {replace: true})}}><Home style={{fill:IconColor}} /></li>
-                    <li className="icon" onClick={()=>{navigate("/about", {replace: true})}}><About style={{fill:IconColor}}/></li>
                     <li className="icon" onClick={()=>{navigate("/portfolio", {replace: true})}}><Portfolio style={{fill:IconColor}}/></li>
+                    <li className="icon" onClick={()=>{navigate("/about", {replace: true})}}><About style={{fill:IconColor}}/></li>
                     <li className="icon" onClick={()=>{navigate("/services", {replace: true})}}><Services style={{fill:IconColor}}/></li>
                 </ul>
                 <ul className="texts">
                     <li className="text" onClick={()=>{navigate("/", {replace: true})}}>HOME</li>
-                    <li className="text" onClick={()=>{navigate("/about", {replace: true})}}>ABOUT</li>
                     <li className="text" onClick={()=>{navigate("/portfolio", {replace: true})}}>PORTFOLIO</li>
-                    <li className="text" onClick={()=>{navigate("/services", {replace: true})}}>SERVICES</li>
+                    <li className="text" onClick={()=>{navigate("/about", {replace: true})}}>CONECT ME</li>
                 </ul>
             </div>
         </div>

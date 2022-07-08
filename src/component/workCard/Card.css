@@ -36,21 +36,23 @@
     height: 100%;
 }
 .card-img{
+    position: relative;
     border-radius: 20px;
-    width: auto;
+    width: 100%;
     height: 100%;
     background-size: cover;
 }
 .card-info{
-    width: 100%;
+    width: 80%;
     height: 100%;
     font-size: 1.2rem;
     position: relative;
-    top: -2.5rem;
+    top: -4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.074);
 }
 .underline{
     width: 0;

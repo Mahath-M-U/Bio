@@ -8,7 +8,7 @@
     box-shadow: 1px 1px 5px #00000057;
 }
 .p-baner-content{
-    width: fit-content;
+    width: 35vw;
     height: fit-content;
     padding: 6rem;
 }
@@ -26,19 +26,56 @@
     margin: .25rem 0;
     position: relative;
     max-width:40ch;
+    max-height: 6ch;
 }
 .baner-img-box{
     height: inherit;
     width: inherit;
+    position: relative;
+    left: 8rem;
     display: flex;
-    justify-content: flex-end;
-    padding: 0 10rem 0 0;
-    box-shadow: inset 10px 10px 50px #ffffff;
+    justify-content: center;
+    align-items: center;
+ }
+
+.baner-img-bg{
+    width: 20rem;
+    height: 20rem;
+    opacity: .6;
 }
-.baner-img{
-    width: auto;
-    height: 100%;
-    border-radius: 20px;
+.baner-btn-box{
+    display:flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.baner-btn{
+    margin: 1rem 1.5rem 1rem 0;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
+.baner-btn:hover{
+    border-radius: 10px;
+    box-shadow: #00000057 5px 5px 7px;
+    text-decoration: none;
+}
+.baner-txt-bnt{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.filtter-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    height: fit-content;
+    width: inherit;
+    top: 1rem;
+    overflow: scroll;
+    scrollbar-width: none; ;
 }
 .filtter-btn{
     font-size: 1rem;
@@ -47,17 +84,18 @@
     padding: .5rem 1rem;
     text-transform: capitalize;
     border-radius: 12px;
-    box-shadow: #00000057 1px 1px 5px;
+    box-shadow: #40404057 1px 1px 5px;
+    opacity: .7;
+    cursor: pointer;
 }
-.filtter-btns{
-    display: flex;
-    width: inherit;
-    flex-direction: row;
-    align-items: flex-end;
+.filtter-btn:hover{
+    opacity: 1;
+    box-shadow: #00000057 5px 5px 7px;
+}
+.mockup{
     position: absolute;
-    height: inherit;
-    width: inherit;
-    left: 2rem;
+    top: -9rem;
+    left: 8rem;
 }
 .p-cards{
     display: flex;

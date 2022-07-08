@@ -46,7 +46,28 @@
                 "demoLink":"https://www.codegrepper.com/",
                 "discTxt":"When a component is removed, there's no longer a chance to update its props.3",
                 "tech":"c++"
+            },
+            {
+                "id":5,
+                "bgColor":"#999999",
+                "bgImg":"WiFiCarIMG.PNG",
+                "headTxt":"Robot",
+                "iconLink":"https://www.codegrepper.com/",
+                "demoLink":"https://www.codegrepper.com/",
+                "discTxt":"When a component is removed, there's no longer a chance to update its props.3",
+                "tech":"javasript"
+            },
+            {
+                "id":6,
+                "bgColor":"#999999",
+                "bgImg":"WiFiCarIMG.PNG",
+                "headTxt":"Robot",
+                "iconLink":"https://www.codegrepper.com/",
+                "demoLink":"https://www.codegrepper.com/",
+                "discTxt":"When a component is removed, there's no longer a chance to update its props.3",
+                "tech":"C#"
             }
+          
     ],
     "service":[
         {

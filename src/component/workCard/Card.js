@@ -25,7 +25,7 @@ export const Card = ({bgImg,bgColor,txtColor,lineColor,Icon,iconLink,headTxt,sub
                 variants={cardHover}
                 style={{color:txtColor,background:bgColor}}>
 
-                <motion.div className='img-box' >
+                <motion.div className='img-box' style>
                     <motion.img 
                         className='card-img'
                         src={bgImg} 
@@ -35,7 +35,7 @@ export const Card = ({bgImg,bgColor,txtColor,lineColor,Icon,iconLink,headTxt,sub
                 <motion.div className='card-btn' 
                     whileTap={{ scale: 0.9 }}
                     variants={btnHover}
-                    onClick={()=> window.open(iconLink,)}>
+                    onClick={()=> window.open(iconLink)}>
                     <Icon 
                         className="git-icon" 
                         style={{fill:txtColor}}/>
