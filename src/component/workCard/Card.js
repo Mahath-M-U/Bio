@@ -1,9 +1,23 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Card.css'
 import {motion,AnimatePresence } from 'framer-motion/dist/es/index'
+import { FastAverageColor } from 'fast-average-color';
+
 
 
 export const Card = ({bgImg,bgColor,txtColor,lineColor,Icon,iconLink,headTxt,subHead,discTxt,handle})=>{
+    const fac = new FastAverageColor();
+
+    const [imgBgColor,setImgBgColor] = useState(lineColor)
+
+    fac.getColorAsync(bgImg).then(res=>{
+    setImgBgColor(res.hex)
+        return res.hex;
+    }).catch(err=>{
+        console.log(err)
+    })
+
+
     const cardHover = {
         rest: { scale: 1,ease: "easeOut", duration: 0.2, type: "tween" },
         hover: { scale: 1.1,transition: { duration: 0.2,type: "tween", ease: "easeIn"}}
@@ -25,12 +39,11 @@ export const Card = ({bgImg,bgColor,txtColor,lineColor,Icon,iconLink,headTxt,sub
                 variants={cardHover}
                 style={{color:txtColor,background:bgColor}}>
 
-                <motion.div className='img-box' style>
-                    <motion.img 
+                <motion.div className='img-box' >
+                    <motion.div 
                         className='card-img'
-                        src={bgImg} 
-                        alt="IMG" 
-                        />
+                        style={{backgroundImage:`linear-gradient(to bottom left, #00000000 60%, ${lineColor} 100%),url(${bgImg})`}}
+                        />  
                 </motion.div>
                 <motion.div className='card-btn' 
                     whileTap={{ scale: 0.9 }}
@@ -47,7 +60,7 @@ export const Card = ({bgImg,bgColor,txtColor,lineColor,Icon,iconLink,headTxt,sub
                     </motion.div> 
                     <motion.div 
                         className="underline"
-                        style={{backgroundColor:lineColor}}
+                        style={{backgroundColor:imgBgColor}}  
                         variants={underLineHover}>
                     </motion.div>       
                 </motion.div> 

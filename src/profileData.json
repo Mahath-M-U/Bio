@@ -1,4 +1,4 @@
-{   "about":{
+ {   "about":{
                 "title":"Mahath M U",
                 "discription":"I am a web developer and technology enthusiast from Kerala, a small state in India.",
                 "resume":"hitme.html",
@@ -9,7 +9,7 @@
             {
                 "id":1,
                 "bgImg":"8051LCDIMG.PNG",
-                "bgColor":"#D4EFF7",
+                "bgColor":"#F6F3EE",
                 "headTxt":"smart shelter",
                 "iconLink":"https://www.codegrepper.com/",
                 "demoLink":"https://www.codegrepper.com/",
@@ -19,7 +19,7 @@
             },
             {
                 "id":2,
-                "bgColor":"#AADFEE",
+                "bgColor":"#F6F3EE",
                 "bgImg":"RTRIMG.png",
                 "headTxt":"Web3",
                 "iconLink":"https://www.codegrepper.com/",
@@ -39,7 +39,7 @@
             },
             {
                 "id":4,
-                "bgColor":"#999999",
+                "bgColor":"#F6F3EE",
                 "bgImg":"WiFiCarIMG.PNG",
                 "headTxt":"Robot",
                 "iconLink":"https://www.codegrepper.com/",
@@ -49,7 +49,7 @@
             },
             {
                 "id":5,
-                "bgColor":"#999999",
+                "bgColor":"#F6F3EE",
                 "bgImg":"WiFiCarIMG.PNG",
                 "headTxt":"Robot",
                 "iconLink":"https://www.codegrepper.com/",
@@ -59,7 +59,7 @@
             },
             {
                 "id":6,
-                "bgColor":"#999999",
+                "bgColor":"#F6F3EE",
                 "bgImg":"WiFiCarIMG.PNG",
                 "headTxt":"Robot",
                 "iconLink":"https://www.codegrepper.com/",
