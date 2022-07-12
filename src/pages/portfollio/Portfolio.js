@@ -9,13 +9,13 @@ import banerImg from '../../Assets/img/proPic.png';
 const Portfolio =({color})=>{
     const uniqueData = [...new Map(profileData.portfolio.map(item =>[item.tech]))];
 
-
     const [banerData,setBanerData] = useState([
         profileData.about.title,
         profileData.about.discription,
         profileData.about.tech,
         banerImg,
     ])
+    console.log(uniqueData)
     const [filt,setFilt] = useState(uniqueData)
     const handleClick = useCallback((headTxt,discTxt,subHead,banerImg)=> {
             setBanerData([headTxt,discTxt,subHead,banerImg])    
