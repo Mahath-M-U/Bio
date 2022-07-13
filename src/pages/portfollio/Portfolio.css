@@ -33,16 +33,6 @@
     max-width:40ch;
     max-height: 6ch;
 }
-.baner-img-box{
-    height: 100%;
-    width: inherit;
-    position: relative;
-    left: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
 .baner-img-bg{
     width: 20rem;
     height: 20rem;

@@ -8,15 +8,13 @@ import banerImg from '../../Assets/img/proPic.png';
     
 const Portfolio =({color})=>{
     const uniqueData = [...new Map(profileData.portfolio.map(item =>[item.tech]))];
-
     const [banerData,setBanerData] = useState([
         profileData.about.title,
         profileData.about.discription,
         profileData.about.tech,
         banerImg,
     ])
-    console.log(uniqueData)
-    const [filt,setFilt] = useState(uniqueData)
+    const [filt,setFilt] = useState(uniqueData.map((item)=>item[0]))
     const handleClick = useCallback((headTxt,discTxt,subHead,banerImg)=> {
             setBanerData([headTxt,discTxt,subHead,banerImg])    
     }) 
@@ -60,7 +58,7 @@ const Portfolio =({color})=>{
             <div className='p-cards'>
                 {profileData.portfolio.map((data)=>{
                     return(
-                        filt[0].includes(data.tech)?<Card className="p-card" 
+                        filt.includes(data.tech)?<Card className="p-card" 
                             key={data.id}
                             bgImg = {require(`../../Assets/img/${data.bgImg}`)}
                             bgColor = {data.bgColor}
