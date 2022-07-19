@@ -42,7 +42,7 @@ export const Card = ({bgImg,bgColor,txtColor,lineColor,Icon,iconLink,headTxt,sub
                 <motion.div className='img-box' >
                     <motion.div 
                         className='card-img'
-                        style={{backgroundImage:`linear-gradient(to bottom,${imgBgColor}29 30%, ${lineColor} 100%),url(${bgImg})`}}
+                        style={{backgroundImage:`linear-gradient(to bottom,${lineColor} 30%, ${imgBgColor}29 100%),url(${bgImg})`}}
                         />  
                 </motion.div>
                 <motion.div className='card-btn' 
