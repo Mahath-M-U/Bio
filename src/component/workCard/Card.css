@@ -54,6 +54,9 @@
     align-items: center;
     justify-content: center;
 }
+.card-info-head{
+    filter: invert(80%); 
+}
 .underline{
     width: 0;
     height: 3px;
