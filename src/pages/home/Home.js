@@ -24,7 +24,7 @@ const Home = ({BgColor,FontColor,objColor,LiteColor}) => {
             <div className="H-ULine" style={{background:LiteColor}}></div>
           </div>
           <div className="H-disc" style={{color:FontColor}}>
-          I'm a web developer. I have a strong interest in technology,
+          I'm a Python developer. I have a strong interest in technology,
            which motivates me to attempt new things on a regular basis.
             I'm always on the lookout for new technologies, like as IoT , Reactjs, and so on...
           </div>
