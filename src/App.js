@@ -51,11 +51,11 @@ function App() {
                 color = {colors}
               />} />
         </Routes>
-       <Footer className="footer"
-              IconColor ={colors.DarkBlue} 
-              OnClickColor = {colors.grey} 
-              ShadowColor ={colors.grey} 
-              TabColor ={colors.greywhite} />
+//        <Footer className="footer"
+//               IconColor ={colors.DarkBlue} 
+//               OnClickColor = {colors.grey} 
+//               ShadowColor ={colors.grey} 
+//               TabColor ={colors.greywhite} />
     </div>
   );
 }
