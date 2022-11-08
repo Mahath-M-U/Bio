@@ -4,7 +4,6 @@ import About from './pages/about/About'
 import Portfolio from './pages/portfollio/Portfolio'
 import Service from './pages/services/Service'
 import React  from 'react';
-import Footer from './component/footer/Footer'
 import Header from './component/header/Header'
 import {Routes, Route } from "react-router-dom";
 
@@ -51,11 +50,6 @@ function App() {
                 color = {colors}
               />} />
         </Routes>
-//        <Footer className="footer"
-//               IconColor ={colors.DarkBlue} 
-//               OnClickColor = {colors.grey} 
-//               ShadowColor ={colors.grey} 
-//               TabColor ={colors.greywhite} />
     </div>
   );
 }
